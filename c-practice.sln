@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "floatFormat", "floatFormat\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scanfAge", "scanfAge\scanfAge.vcxproj", "{419C3BC0-5FAC-4737-AEBC-CB0F3D512D6A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "average", "average\average.vcxproj", "{3DA331D2-BA8A-4FF0-8127-3881F2167266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{419C3BC0-5FAC-4737-AEBC-CB0F3D512D6A}.Release|x64.Build.0 = Release|x64
 		{419C3BC0-5FAC-4737-AEBC-CB0F3D512D6A}.Release|x86.ActiveCfg = Release|Win32
 		{419C3BC0-5FAC-4737-AEBC-CB0F3D512D6A}.Release|x86.Build.0 = Release|Win32
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Debug|x64.ActiveCfg = Debug|x64
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Debug|x64.Build.0 = Debug|x64
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Debug|x86.Build.0 = Debug|Win32
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Release|x64.ActiveCfg = Release|x64
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Release|x64.Build.0 = Release|x64
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Release|x86.ActiveCfg = Release|Win32
+		{3DA331D2-BA8A-4FF0-8127-3881F2167266}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
