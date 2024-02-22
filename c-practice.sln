@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maxSurvival", "maxSurvival\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maxTournament", "maxTournament\maxTournament.vcxproj", "{A06FD1ED-D616-45BF-A081-E2A5BD06E43F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maxIf", "maxIf\maxIf.vcxproj", "{A10BEC3C-F584-4B4B-A545-289EC10C5E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{A06FD1ED-D616-45BF-A081-E2A5BD06E43F}.Release|x64.Build.0 = Release|x64
 		{A06FD1ED-D616-45BF-A081-E2A5BD06E43F}.Release|x86.ActiveCfg = Release|Win32
 		{A06FD1ED-D616-45BF-A081-E2A5BD06E43F}.Release|x86.Build.0 = Release|Win32
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Debug|x64.ActiveCfg = Debug|x64
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Debug|x64.Build.0 = Debug|x64
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Debug|x86.ActiveCfg = Debug|Win32
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Debug|x86.Build.0 = Debug|Win32
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Release|x64.ActiveCfg = Release|x64
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Release|x64.Build.0 = Release|x64
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Release|x86.ActiveCfg = Release|Win32
+		{A10BEC3C-F584-4B4B-A545-289EC10C5E57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
