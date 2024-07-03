@@ -1,20 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 화면에 메뉴를 출력하는 함수의 선언 및 정의
-int printMenu(void) {
-    int nInput = 0;
-
-    // 메뉴를 출력하기 전에 화면을 지운다. (Clear screen)
-    system("cls");
-
-    // 메뉴를 출력하고 사용자 입력을 받는다.
-    printf("[1]New\t[2]Search\t[3]Print\t[4]Remove\t[0]Exit\n");
-    scanf_s("%d", &nInput);
-
-    // 사용자가 선택한 메뉴 값을 반환한다.
-    return nInput;
-}
+// 함수 선언
+int printMenu(void);
 
 int main(void) {
     int nMenu = 0;
@@ -49,4 +37,19 @@ int main(void) {
     }
     puts("Bye~!");
     return 0;
+}
+
+// 화면에 메뉴를 출력하는 함수의 정의
+int printMenu(void) {
+    int nInput = 0;
+
+    // 메뉴를 출력하기 전에 화면을 지운다. (Clear screen)
+    system("cls");
+
+    // 메뉴를 출력하고 사용자 입력을 받는다.
+    printf("[1]New\t[2]Search\t[3]Print\t[4]Remove\t[0]Exit\n");
+    scanf_s("%d", &nInput);
+
+    // 사용자가 선택한 메뉴 값을 반환한다.
+    return nInput;
 }
